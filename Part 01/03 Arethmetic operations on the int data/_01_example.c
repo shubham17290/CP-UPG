@@ -12,6 +12,7 @@ int main() {
     printf("Division of x and y is : %d\n",
            x / y); // this is also , floor division , tells how many times y can fit into x    =  2
     printf("Remainder when you divide x by y : %d\n", x % y); // 1
-    printf("print the exponent value of the x th the power y  %d\n", (int)lround(pow(x, y))); // 25  (5^2)
+    printf("print the exponent value of the x th the power y  %d\n",
+           (int)lround(pow(x, y))); // 25  (5^2)
     return 0;
 }
