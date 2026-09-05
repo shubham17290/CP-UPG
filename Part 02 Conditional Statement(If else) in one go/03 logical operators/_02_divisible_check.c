@@ -8,10 +8,10 @@ int main() {
     printf("Enter value: ");
     scanf("%d", &n);
 //  Method 01 :
-    if (n % 5 == 0 && n % 3 == 0) {
-        printf("%d is divisible by both 5 and 3\n", n);
+    if (n % 5 == 0 || n % 3 == 0) {
+        printf("%d is divisible by either 5 or 3\n", n);
     } else {
-        printf("%d is not divisible by both 5 and 3\n", n);
+        printf("%d is not divisible by either 5 or 3\n", n);
     }
 
     return 0;
