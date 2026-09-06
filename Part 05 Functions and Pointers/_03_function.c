@@ -1,15 +1,15 @@
 #include <stdio.h>
 void england() {
-    printf("You are iin england\n");
+    printf("You are in England\n");
     return;
 }
 void austrailia() {
-    printf("You are in austrailia\n");
+    printf("You are in Austrailia\n");
     england();
     return;
 }
 void india() {
-    printf("You are in india\n");
+    printf("You are in India\n");
     austrailia();
     return;
 }
