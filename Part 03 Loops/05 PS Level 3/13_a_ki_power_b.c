@@ -11,6 +11,6 @@ int main() {
         power *= a;
     }
 
-    printf("Result: %d\n", power);
+    printf(" %d raised to power %d is: %d\n", a, b, power);
     return 0;
 }
