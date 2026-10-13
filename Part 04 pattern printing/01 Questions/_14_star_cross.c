@@ -2,15 +2,19 @@
 #include <stdio.h>
 
 int main() {
-    int m, n;
+    int n;
 
-    printf("Enter value of the row and column : ");
-    scanf("%d %d", &m, &n);
+    printf("Enter the numbers of lines : ");
+    scanf("%d", &n);
 
-    for (int i = 0; i <= m; i++) {
-        for (int j = 0; j <= n; j++) {
-
+    for (int i = 1; i <= n; i++) {
+        for (int j = 1; j <= n; j++) {
+            if (i == j || i + j == n + 1)
+                printf("*");
+            else
+                printf(" ");
         }
+        printf("\n");
     }
 
     return 0;
